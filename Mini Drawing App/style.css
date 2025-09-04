@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.toolbar {
+  background: #2c3e50;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+button {
+  background: #3498db;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+button.active {
+  background: #e67e22;
+}
+
+canvas {
+  flex: 1;
+  border: 2px solid #2c3e50;
+  background: white;
+  cursor: crosshair;
+  touch-action: none;
+}

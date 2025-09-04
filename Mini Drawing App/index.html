@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Drawing App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <label for="tool">🛠 Tool:</label>
+    <select id="tool">
+      <option value="pen">Pen</option>
+      <option value="pencil">Pencil</option>
+      <option value="brush">Brush</option>
+    </select>
+
+    <label for="color">🎨 Color:</label>
+    <input type="color" id="color" value="#000000">
+
+    <label for="size">✏️ Size:</label>
+    <input type="range" id="size" min="2" max="30" value="5">
+
+    <label for="bgColor">🖼️ Background:</label>
+    <input type="color" id="bgColor" value="#ffffff">
+
+    <button id="eraser">🧽 Eraser</button>
+    <button id="clear">🧹 Clear</button>
+    <button id="save">💾 Save</button>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
