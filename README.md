@@ -1,8 +1,7 @@
 # 🎨 Mini Drawing App
-
 A simple drawing app made with **HTML, CSS, and JavaScript**.\
- -Supports **pen, pencil, brush, and eraser** tools with custom cursors.
- -You can draw whatever you want and save your drawing as image 
+Supports **pen, pencil, brush, and eraser** tools with custom cursors.
+You can draw whatever you want and save your drawing as image 
 and even you can easily clear or erase it.
 ------------------------------------------------------------------------
 
